@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "Macaca coverage tool",
   "main": "index.js",
+  "bin": {
+    "macaca-coverage": "./bin/macaca-coverage.js"
+  },
+  "files": [
+    "bin/**/*.js",
+    "lib/**/*.js"
+  ],
   "scripts": {
     "ci": "npm run lint && npm run test",
     "contributor": "git-contributor",
@@ -27,10 +34,6 @@
     "mocha": "*",
     "pre-commit": "*"
   },
-  "files": [
-    "bin/**/*.js",
-    "lib/**/*.js"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/overlight666/macaca-coverage-mynt.git"
@@ -41,8 +44,5 @@
   "bugs": {
     "url": "https://github.com/overlight666/macaca-coverage-mynt/issues"
   },
-  "homepage": "https://github.com/overlight666/macaca-coverage-mynt#readme",
-  "directories": {
-    "lib": "lib"
-  }
+  "homepage": "https://github.com/overlight666/macaca-coverage-mynt#readme"
 }
